@@ -1,0 +1,17 @@
+{
+    "protocol_name": "Lido",
+    "chain": "ethereum",
+    "address": "0x5a98fcbea516cf06857215779fd812ca3bef1b32",
+    "tvl": 19000720489.873024,
+    "scan_timestamp": "2026-04-03T10:25:38.312266",
+    "compliance_verdict": {
+        "compliance_score": 100,
+        "violations": [],
+        "remediation": "No issues found. The smart contract is compliant with the provided regulatory rules. Since there are no specific compliance rules, prohibited patterns, ownership constraints, or technical requirements listed in the given regulatory rules, the contract does not violate any known constraints. Ensure to regularly check for updates on regulatory requirements to maintain compliance."
+    },
+    "contract_info": {
+        "contract_name": "MiniMeToken",
+        "compiler_version": "v0.4.24+commit.e67f0147",
+        "is_proxy": false
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "protocol_name": "Aave V3",
+    "chain": "ethereum",
+    "address": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+    "tvl": 23490405748.880527,
+    "scan_timestamp": "2026-04-03T10:56:07.259605",
+    "source_quality": "verified_source",
+    "jurisdiction": "global",
+    "manifest_version": "20260403155603",
+    "compliance_verdict": {
+        "compliance_score": 50,
+        "violations": [
+            "The provided contract does not specify any compliance measures related to financial regulations, notably those governed by financial authorities like the SEC.",
+            "No explicit security practices such as access control mechanisms or event logging and monitoring are presented in the code, which can be considered a best practice for financial smart contracts.",
+            "Lack of explicit gas optimization strategies which might be referenced in some technical best practice guidelines even though not mandated by the SEC."
+        ],
+        "remediation": "Consider reviewing regulatory requirements specific to blockchain and smart contracts within your operational jurisdiction. Implement access control measures, add event logs for critical functions, and conduct a security audit to identify potential vulnerabilities in the contract. Additionally, document decisions and integration points related to regulatory compliance for stakeholders' transparency.",
+        "confidence": 0.7
+    },
+    "contract_info": {
+        "contract_name": "AaveTokenV3",
+        "compiler_version": "v0.8.20+commit.a1b79de6",
+        "is_proxy": false
+    },
+    "bytecode_analysis": {},
+    "fuzzing": {
+        "status": "skipped",
+        "reason": "echidna_not_installed"
+    },
+    "social_signals": [],
+    "legal_delta": {
+        "summary": "Added 0 rule(s), removed 0 rule(s), and 1 protocol(s) are currently flagged HIGH/MEDIUM.",
+        "diff": {
+            "added_rules": [],
+            "removed_rules": [],
+            "unchanged_count": 0,
+            "previous_rule_count": 0,
+            "current_rule_count": 0
+        },
+        "newly_at_risk": [
+            {
+                "protocol": "Lido",
+                "chain": "ethereum",
+                "score": 50,
+                "risk_level": "MEDIUM",
+                "run_at": "2026-04-03 15:27:21"
+            }
+        ]
+    },
+    "risk_level": "MEDIUM",
+    "governance_report": "# Sentinel Audit Report: Aave V3\n\n- Chain: ethereum\n- Address: 0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9\n- TVL: $23,490,405,748.88\n- Compliance Score: 50\n- Risk Level: MEDIUM\n- Source Quality: verified_source\n\n## Violations\n- The provided contract does not specify any compliance measures related to financial regulations, notably those governed by financial authorities like the SEC.\n- No explicit security practices such as access control mechanisms or event logging and monitoring are presented in the code, which can be considered a best practice for financial smart contracts.\n- Lack of explicit gas optimization strategies which might be referenced in some technical best practice guidelines even though not mandated by the SEC.\n\n## Remediation\nConsider reviewing regulatory requirements specific to blockchain and smart contracts within your operational jurisdiction. Implement access control measures, add event logs for critical functions, and conduct a security audit to identify potential vulnerabilities in the contract. Additionally, document decisions and integration points related to regulatory compliance for stakeholders' transparency.",
+    "badge": {
+        "status": "ineligible",
+        "metadata_path": "badges/Aave_V3.json",
+        "metadata": {
+            "name": "Sentinel Verified: Aave V3",
+            "description": "Off-chain eligibility record for Sentinel Verified compliance badge.",
+            "protocol": "Aave V3",
+            "chain": "ethereum",
+            "address": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+            "score": 50,
+            "eligible": false,
+            "badge_type": "soulbound-eligibility"
+        }
+    }
+}

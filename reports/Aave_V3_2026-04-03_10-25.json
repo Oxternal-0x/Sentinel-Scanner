@@ -1,0 +1,17 @@
+{
+    "protocol_name": "Aave V3",
+    "chain": "ethereum",
+    "address": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+    "tvl": 23453268758.438824,
+    "scan_timestamp": "2026-04-03T10:25:35.851731",
+    "compliance_verdict": {
+        "compliance_score": 100,
+        "violations": [],
+        "remediation": "The provided smart contract code does not violate any of the specified compliance rules, as there are no required functions, prohibited patterns, ownership constraints, or technical requirements listed in the regulatory rules. Therefore, no remediation is needed."
+    },
+    "contract_info": {
+        "contract_name": "AaveTokenV3",
+        "compiler_version": "v0.8.20+commit.a1b79de6",
+        "is_proxy": false
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "python.analysis.typeCheckingMode": "standard",
+    "python.terminal.useEnvFile": true,
+    "files.autoSave": "onFocusChange",
+    "editor.defaultFormatter": "njpwerner.autodocstring",
+    "editor.wordWrap": "on",
+    "workbench.editor.wrapTabs": true
+}

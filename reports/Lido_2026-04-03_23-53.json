@@ -1,0 +1,67 @@
+{
+    "protocol_name": "Lido",
+    "chain": "ethereum",
+    "address": "0x5a98fcbea516cf06857215779fd812ca3bef1b32",
+    "tvl": 19027532753.90806,
+    "scan_timestamp": "2026-04-03T23:53:25.864236",
+    "source_quality": "verified_source",
+    "jurisdiction": "global",
+    "manifest_version": "20260404045319",
+    "compliance_verdict": {
+        "compliance_score": 40,
+        "violations": [
+            "Missing required functions: pause, freeze, blacklist.",
+            "No mention of ownership disclosure mechanisms.",
+            "Potential lack of auditability as fuzzing analysis is skipped.",
+            "No immutability exceptions are explicitly found."
+        ],
+        "remediation": "Implement the required functions 'pause', 'freeze', and 'blacklist' to meet regulatory compliance. Ensure there's a method to clearly disclose ownership and control of the crypto assets. Set up and execute comprehensive auditability checks, including installing necessary tools like Echidna. Consider mechanisms allowing exceptions to immutability for compliance with legal orders.",
+        "confidence": 0.9
+    },
+    "contract_info": {
+        "contract_name": "MiniMeToken",
+        "compiler_version": "v0.4.24+commit.e67f0147",
+        "is_proxy": false
+    },
+    "bytecode_analysis": {},
+    "fuzzing": {
+        "status": "skipped",
+        "reason": "echidna_not_installed"
+    },
+    "social_signals": [],
+    "legal_delta": {
+        "summary": "Added 0 rule(s), removed 0 rule(s), and 1 protocol(s) are currently flagged HIGH/MEDIUM.",
+        "diff": {
+            "added_rules": [],
+            "removed_rules": [],
+            "unchanged_count": 0,
+            "previous_rule_count": 0,
+            "current_rule_count": 0
+        },
+        "newly_at_risk": [
+            {
+                "protocol": "SSV Network",
+                "chain": "ethereum",
+                "score": 50,
+                "risk_level": "MEDIUM",
+                "run_at": "2026-04-04 04:52:25"
+            }
+        ]
+    },
+    "risk_level": "HIGH",
+    "governance_report": "# Sentinel Audit Report: Lido\n\n- Chain: ethereum\n- Address: 0x5a98fcbea516cf06857215779fd812ca3bef1b32\n- TVL: $19,027,532,753.91\n- Compliance Score: 40\n- Risk Level: HIGH\n- Source Quality: verified_source\n\n## Violations\n- Missing required functions: pause, freeze, blacklist.\n- No mention of ownership disclosure mechanisms.\n- Potential lack of auditability as fuzzing analysis is skipped.\n- No immutability exceptions are explicitly found.\n\n## Remediation\nImplement the required functions 'pause', 'freeze', and 'blacklist' to meet regulatory compliance. Ensure there's a method to clearly disclose ownership and control of the crypto assets. Set up and execute comprehensive auditability checks, including installing necessary tools like Echidna. Consider mechanisms allowing exceptions to immutability for compliance with legal orders.",
+    "badge": {
+        "status": "ineligible",
+        "metadata_path": "badges/Lido.json",
+        "metadata": {
+            "name": "Sentinel Verified: Lido",
+            "description": "Off-chain eligibility record for Sentinel Verified compliance badge.",
+            "protocol": "Lido",
+            "chain": "ethereum",
+            "address": "0x5a98fcbea516cf06857215779fd812ca3bef1b32",
+            "score": 40,
+            "eligible": false,
+            "badge_type": "soulbound-eligibility"
+        }
+    }
+}

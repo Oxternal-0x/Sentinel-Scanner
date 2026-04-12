@@ -1,0 +1,17 @@
+{
+    "protocol_name": "SSV Network",
+    "chain": "ethereum",
+    "address": "0x9D65fF81a3c488d585bBfb0Bfe3c7707c7917f54",
+    "tvl": 14939197519.578712,
+    "scan_timestamp": "2026-04-03T10:25:39.920666",
+    "compliance_verdict": {
+        "compliance_score": 100,
+        "violations": [],
+        "remediation": "No issues found. The Smart Contract complies with the provided regulatory rules, as there were no specific rules defined under 'complianceRules'. Hence, no remediation is required."
+    },
+    "contract_info": {
+        "contract_name": "SSVToken",
+        "compiler_version": "v0.8.4+commit.c7e474f2",
+        "is_proxy": false
+    }
+}

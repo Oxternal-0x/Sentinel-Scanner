@@ -1,0 +1,67 @@
+{
+    "protocol_name": "SSV Network",
+    "chain": "ethereum",
+    "address": "0x9D65fF81a3c488d585bBfb0Bfe3c7707c7917f54",
+    "tvl": 15011143399.569103,
+    "scan_timestamp": "2026-04-03T23:53:27.916895",
+    "source_quality": "verified_source",
+    "jurisdiction": "us",
+    "manifest_version": "20260404045319",
+    "compliance_verdict": {
+        "compliance_score": 40,
+        "violations": [
+            "Missing required `pause` function.",
+            "Missing required `freeze` function.",
+            "Missing required `blacklist` function.",
+            "Potential for prohibition due to lack of functions to ensure auditability and immutability exceptions as required by SEC."
+        ],
+        "remediation": "Add the capability to pause, freeze, and blacklist within the SSVToken contract to comply with required compliance functions. Ensure the contract includes mechanisms for auditability and allowing immutability exceptions to address legal orders. Consider integrating these features using OpenZeppelin's modular security capabilities or custom implementations.",
+        "confidence": 0.85
+    },
+    "contract_info": {
+        "contract_name": "SSVToken",
+        "compiler_version": "v0.8.4+commit.c7e474f2",
+        "is_proxy": false
+    },
+    "bytecode_analysis": {},
+    "fuzzing": {
+        "status": "skipped",
+        "reason": "echidna_not_installed"
+    },
+    "social_signals": [],
+    "legal_delta": {
+        "summary": "Added 0 rule(s), removed 0 rule(s), and 1 protocol(s) are currently flagged HIGH/MEDIUM.",
+        "diff": {
+            "added_rules": [],
+            "removed_rules": [],
+            "unchanged_count": 0,
+            "previous_rule_count": 0,
+            "current_rule_count": 0
+        },
+        "newly_at_risk": [
+            {
+                "protocol": "SSV Network",
+                "chain": "ethereum",
+                "score": 50,
+                "risk_level": "MEDIUM",
+                "run_at": "2026-04-04 04:52:25"
+            }
+        ]
+    },
+    "risk_level": "HIGH",
+    "governance_report": "# Sentinel Audit Report: SSV Network\n\n- Chain: ethereum\n- Address: 0x9D65fF81a3c488d585bBfb0Bfe3c7707c7917f54\n- TVL: $15,011,143,399.57\n- Compliance Score: 40\n- Risk Level: HIGH\n- Source Quality: verified_source\n\n## Violations\n- Missing required `pause` function.\n- Missing required `freeze` function.\n- Missing required `blacklist` function.\n- Potential for prohibition due to lack of functions to ensure auditability and immutability exceptions as required by SEC.\n\n## Remediation\nAdd the capability to pause, freeze, and blacklist within the SSVToken contract to comply with required compliance functions. Ensure the contract includes mechanisms for auditability and allowing immutability exceptions to address legal orders. Consider integrating these features using OpenZeppelin's modular security capabilities or custom implementations.",
+    "badge": {
+        "status": "ineligible",
+        "metadata_path": "badges/SSV_Network.json",
+        "metadata": {
+            "name": "Sentinel Verified: SSV Network",
+            "description": "Off-chain eligibility record for Sentinel Verified compliance badge.",
+            "protocol": "SSV Network",
+            "chain": "ethereum",
+            "address": "0x9D65fF81a3c488d585bBfb0Bfe3c7707c7917f54",
+            "score": 40,
+            "eligible": false,
+            "badge_type": "soulbound-eligibility"
+        }
+    }
+}

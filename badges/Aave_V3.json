@@ -1,0 +1,10 @@
+{
+  "name": "Sentinel Verified: Aave V3",
+  "description": "Off-chain eligibility record for Sentinel Verified compliance badge.",
+  "protocol": "Aave V3",
+  "chain": "ethereum",
+  "address": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+  "score": 30,
+  "eligible": false,
+  "badge_type": "soulbound-eligibility"
+}

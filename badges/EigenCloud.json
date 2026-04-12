@@ -1,0 +1,10 @@
+{
+  "name": "Sentinel Verified: EigenCloud",
+  "description": "Off-chain eligibility record for Sentinel Verified compliance badge.",
+  "protocol": "EigenCloud",
+  "chain": "ethereum",
+  "address": "0xec53bf9167f50cdeb3ae105f56099aaab9061f83",
+  "score": 60,
+  "eligible": false,
+  "badge_type": "soulbound-eligibility"
+}

@@ -1,0 +1,21 @@
+{
+    "protocol_name": "Lido",
+    "chain": "ethereum",
+    "address": "0x5a98fcbea516cf06857215779fd812ca3bef1b32",
+    "tvl": 19000720489.873024,
+    "scan_timestamp": "2026-04-03T10:27:21.442476",
+    "compliance_verdict": {
+        "compliance_score": 50,
+        "violations": [
+            "Absence of compliance rules detailing specific technical, ownership, or prohibited patterns for the contract",
+            "No documented processes for regulatory compliance concerning token transfers or approvals",
+            "Lack of explicit alignment with SEC regulations or guidance, as no reference to SEC compliance is present in the contract structure"
+        ],
+        "remediation": "To improve compliance, it is crucial to define and implement specific compliance rules and technical requirements that align with SEC regulations. This includes detailing functions necessary for regulatory adherence, avoiding prohibited patterns known to introduce risks, and embedding clear ownership and control mechanisms. Additionally, a section documenting the compliance strategy, referencing SEC guidelines, and how they are met within the contract should be included. This will help ensure the contract does not inadvertently violate any relevant securities laws."
+    },
+    "contract_info": {
+        "contract_name": "MiniMeToken",
+        "compiler_version": "v0.4.24+commit.e67f0147",
+        "is_proxy": false
+    }
+}

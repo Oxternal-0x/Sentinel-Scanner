@@ -1,0 +1,15 @@
+flowchart LR
+    A[SEC / MiCA law updates] -->|Rules text| B[Compliance Engine\n(compliance_engine.py)]
+    B -->|Manifest| C[On-Chain Radar\n(indexer.py)]
+    C -->|Top whale targets| D[Deep Scan\n(etherscan.py)]
+    D -->|Source code| E[Judge Logic\n(main.py)]
+    E -->|Pass/Fail + remediation| F[Audit Report / .json]
+    F --> G[Risk Team / LP Dashboard]
+
+    style A fill:#f9f,stroke:#333,stroke-width:2px
+    style B fill:#9f9,stroke:#333,stroke-width:2px
+    style C fill:#9ff,stroke:#333,stroke-width:2px
+    style D fill:#ff9,stroke:#333,stroke-width:2px
+    style E fill:#f99,stroke:#333,stroke-width:2px
+    style F fill:#ddf,stroke:#333,stroke-width:2px
+    style G fill:#cfc,stroke:#333,stroke-width:2px

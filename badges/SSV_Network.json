@@ -1,0 +1,10 @@
+{
+  "name": "Sentinel Verified: SSV Network",
+  "description": "Off-chain eligibility record for Sentinel Verified compliance badge.",
+  "protocol": "SSV Network",
+  "chain": "ethereum",
+  "address": "0x9D65fF81a3c488d585bBfb0Bfe3c7707c7917f54",
+  "score": 40,
+  "eligible": false,
+  "badge_type": "soulbound-eligibility"
+}

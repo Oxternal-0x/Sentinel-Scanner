@@ -1,0 +1,69 @@
+{
+    "protocol_name": "EigenCloud",
+    "chain": "ethereum",
+    "address": "0xec53bf9167f50cdeb3ae105f56099aaab9061f83",
+    "tvl": 8354933571.987126,
+    "scan_timestamp": "2026-04-03T23:53:31.286322",
+    "source_quality": "verified_source",
+    "jurisdiction": "us",
+    "manifest_version": "20260404045319",
+    "compliance_verdict": {
+        "compliance_score": 60,
+        "violations": [
+            "missing_pause_function",
+            "missing_freeze_function",
+            "missing_blacklist_function",
+            "lack_of_disclosure_on_ownership",
+            "potential_issues_with_auditability",
+            "lack_of_immutability_exceptions"
+        ],
+        "remediation": "To improve compliance, the smart contract should implement the 'pause,' 'freeze,' and 'blacklist' functions to meet regulatory requirements for transaction control and asset management in the case of regulatory intervention or unauthorized activities. Additionally, comprehensive disclosures regarding ownership and control of the smart contract should be integrated within the contract or accompanying documentation. Ensure the contract is auditable, preserving detailed logs of transactions and state changes. Finally, consider providing mechanisms for alteration or exception to immutability for legal compliance when required.",
+        "confidence": 0.85
+    },
+    "contract_info": {
+        "contract_name": "Eigen",
+        "compiler_version": "v0.8.27+commit.40a35a09",
+        "is_proxy": false
+    },
+    "bytecode_analysis": {},
+    "fuzzing": {
+        "status": "skipped",
+        "reason": "echidna_not_installed"
+    },
+    "social_signals": [],
+    "legal_delta": {
+        "summary": "Added 0 rule(s), removed 0 rule(s), and 1 protocol(s) are currently flagged HIGH/MEDIUM.",
+        "diff": {
+            "added_rules": [],
+            "removed_rules": [],
+            "unchanged_count": 0,
+            "previous_rule_count": 0,
+            "current_rule_count": 0
+        },
+        "newly_at_risk": [
+            {
+                "protocol": "SSV Network",
+                "chain": "ethereum",
+                "score": 50,
+                "risk_level": "MEDIUM",
+                "run_at": "2026-04-04 04:52:25"
+            }
+        ]
+    },
+    "risk_level": "MEDIUM",
+    "governance_report": "# Sentinel Audit Report: EigenCloud\n\n- Chain: ethereum\n- Address: 0xec53bf9167f50cdeb3ae105f56099aaab9061f83\n- TVL: $8,354,933,571.99\n- Compliance Score: 60\n- Risk Level: MEDIUM\n- Source Quality: verified_source\n\n## Violations\n- missing_pause_function\n- missing_freeze_function\n- missing_blacklist_function\n- lack_of_disclosure_on_ownership\n- potential_issues_with_auditability\n- lack_of_immutability_exceptions\n\n## Remediation\nTo improve compliance, the smart contract should implement the 'pause,' 'freeze,' and 'blacklist' functions to meet regulatory requirements for transaction control and asset management in the case of regulatory intervention or unauthorized activities. Additionally, comprehensive disclosures regarding ownership and control of the smart contract should be integrated within the contract or accompanying documentation. Ensure the contract is auditable, preserving detailed logs of transactions and state changes. Finally, consider providing mechanisms for alteration or exception to immutability for legal compliance when required.",
+    "badge": {
+        "status": "ineligible",
+        "metadata_path": "badges/EigenCloud.json",
+        "metadata": {
+            "name": "Sentinel Verified: EigenCloud",
+            "description": "Off-chain eligibility record for Sentinel Verified compliance badge.",
+            "protocol": "EigenCloud",
+            "chain": "ethereum",
+            "address": "0xec53bf9167f50cdeb3ae105f56099aaab9061f83",
+            "score": 60,
+            "eligible": false,
+            "badge_type": "soulbound-eligibility"
+        }
+    }
+}

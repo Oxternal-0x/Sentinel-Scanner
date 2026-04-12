@@ -1,0 +1,62 @@
+{
+    "protocol_name": "SSV Network",
+    "chain": "ethereum",
+    "address": "0x9D65fF81a3c488d585bBfb0Bfe3c7707c7917f54",
+    "tvl": 14991479303.00905,
+    "scan_timestamp": "2026-04-03T10:56:11.294191",
+    "source_quality": "verified_source",
+    "jurisdiction": "us",
+    "manifest_version": "20260403155603",
+    "compliance_verdict": {
+        "compliance_score": 100,
+        "violations": [],
+        "remediation": "The smart contract complies with the provided regulatory rules. No issues were detected. Continue to ensure that the contract adheres to any other jurisdiction-specific regulations and monitor for future updates to compliance requirements.",
+        "confidence": 0.9
+    },
+    "contract_info": {
+        "contract_name": "SSVToken",
+        "compiler_version": "v0.8.4+commit.c7e474f2",
+        "is_proxy": false
+    },
+    "bytecode_analysis": {},
+    "fuzzing": {
+        "status": "skipped",
+        "reason": "echidna_not_installed"
+    },
+    "social_signals": [],
+    "legal_delta": {
+        "summary": "Added 0 rule(s), removed 0 rule(s), and 1 protocol(s) are currently flagged HIGH/MEDIUM.",
+        "diff": {
+            "added_rules": [],
+            "removed_rules": [],
+            "unchanged_count": 0,
+            "previous_rule_count": 0,
+            "current_rule_count": 0
+        },
+        "newly_at_risk": [
+            {
+                "protocol": "Lido",
+                "chain": "ethereum",
+                "score": 50,
+                "risk_level": "MEDIUM",
+                "run_at": "2026-04-03 15:27:21"
+            }
+        ]
+    },
+    "risk_level": "LOW",
+    "governance_report": "# Sentinel Audit Report: SSV Network\n\n- Chain: ethereum\n- Address: 0x9D65fF81a3c488d585bBfb0Bfe3c7707c7917f54\n- TVL: $14,991,479,303.01\n- Compliance Score: 100\n- Risk Level: LOW\n- Source Quality: verified_source\n\n## Violations\n- No explicit violations found.\n\n## Remediation\nThe smart contract complies with the provided regulatory rules. No issues were detected. Continue to ensure that the contract adheres to any other jurisdiction-specific regulations and monitor for future updates to compliance requirements.",
+    "badge": {
+        "status": "eligible",
+        "metadata_path": "badges/SSV_Network.json",
+        "metadata": {
+            "name": "Sentinel Verified: SSV Network",
+            "description": "Off-chain eligibility record for Sentinel Verified compliance badge.",
+            "protocol": "SSV Network",
+            "chain": "ethereum",
+            "address": "0x9D65fF81a3c488d585bBfb0Bfe3c7707c7917f54",
+            "score": 100,
+            "eligible": true,
+            "badge_type": "soulbound-eligibility"
+        }
+    }
+}

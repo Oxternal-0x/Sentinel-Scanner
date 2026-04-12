@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #f5efe5;
+  --ink: #102542;
+  --card: #fffaf2;
+  --low: #2a9d8f;
+  --medium: #f4a261;
+  --high: #d1495b;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  background: radial-gradient(circle at top, #fffaf2, var(--bg));
+  color: var(--ink);
+}

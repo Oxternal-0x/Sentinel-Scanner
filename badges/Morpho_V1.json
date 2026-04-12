@@ -1,0 +1,10 @@
+{
+  "name": "Sentinel Verified: Morpho V1",
+  "description": "Off-chain eligibility record for Sentinel Verified compliance badge.",
+  "protocol": "Morpho V1",
+  "chain": "ethereum",
+  "address": "0x58D97B57BB95320F9a05dC918Aef65434969c2B2",
+  "score": 40,
+  "eligible": false,
+  "badge_type": "soulbound-eligibility"
+}
