@@ -218,7 +218,3 @@ cp .env.example .env.local
 npm run dev
 ```
 
----
-
-## 📈 Optional Next Step: Mermaid Architecture Diagram
-Would you like me to write a `diagram.mermaid` file that you can paste into your README to show investors a beautiful flowchart of the AI pipeline?
