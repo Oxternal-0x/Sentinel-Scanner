@@ -1,39 +1,3 @@
-# 🛡️ Sentinel-Scanner: Autonomous DeFi Compliance AI
-
-**Sentinel-Scanner** is the world’s first autonomous smart contract auditor designed to bridge the gap between rapidly evolving global regulations and on-chain reality.
-
-## ⚡ Core Capabilities
-* **📰 Autonomous Regulatory Intake:** Monitors SEC, CFTC, and ESMA RSS feeds for new regulations and automatically updates compliance rules.
-* **📱 Real-time Notifications:** Telegram alerts when new regulations are detected or audit cycles complete.
-* **⚖️ Self-Evolving Logic:** Automatically parses new regulatory filings (RSS/PDF) into Solidity-specific compliance rules using configurable OpenAI-compatible models (OpenAI or Ollama).
-* **🎯 Adaptive Targeting:** Dynamically targets the top 10% of DeFi protocols by TVL, scaling automatically with market growth.
-* **🔍 Multichain Forensics:** Automated source code extraction from Ethereum, Polygon, Arbitrum, BSC, and Optimism.
-* **🤖 Semantic Auditing:** Moves beyond regex to understand the "Intent" of the code relative to jurisdictional law.
-* **🔄 Proxy Detection:** Automatically resolves proxy contracts to audit implementation logic.
-* **💾 Audit Trail:** JSON persistence of all compliance verdicts for regulatory reporting and historical analysis.
-
-## 🛠️ Architecture
-- `compliance_engine.py`: The LLM-driven "Brain" that interprets law.
-- `indexer.py`: The "Radar" that identifies systemic risk targets using percentile-based selection.
-- `etherscan.py`: The "MultichainFetcher" that retrieves live contract data across 5+ blockchains.
-- `law_fetcher.py`: The "Regulatory Listener" that monitors global regulatory feeds.
-- `telegram_notifier.py`: The "Alert System" for real-time notifications.
-- `main.py`: The "Orchestrator" managing the end-to-end autonomous pipeline.
-
-## 🎯 Product Moat
-Unlike static auditors (CertiK, Hacken) that provide a "point-in-time" PDF, Sentinel is a living security layer. It uses LLMs to translate real-time regulatory shifts (SEC/MiCA) into executable scans, ensuring compliance 24/7, not just at launch. The adaptive percentile targeting ensures it always audits the "economic core" regardless of market size.
-
-## 💡 Compliance Value Proposition
-We reduce "Regulatory Lag." When a new law drops, Sentinel identifies non-compliant protocols across a $100B+ ecosystem in minutes, not months.
-
-## 🚀 Go-To-Market Strategy
-Target:
-- DeFi Risk teams
-- Institutional LPs
-- Regulated asset managers
-
-Sell a subscription for **continuous compliance insurance**, not a one-time audit engagement.
-
 ## 🚀 Quick Start (Mac mini / Unix)
 1. Clone & install:
 ```bash
